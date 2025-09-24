@@ -1,12 +1,13 @@
 {
-  "version": "0.0.1",
-  "build": "2025.09.22",
-  "release_date": "2025-09-22T19:16:26.374367",
-  "download_url": "https://Luukz-Y.github.io/danfe-updates/updates/danfe-compactador-v0.0.1.zip",
+  "version": "1.0.1",
+  "build": "2025.09.23",
+  "release_date": "2025-09-23T21:24:17.217123",
+  "download_url": "https://Luukz-Y.github.io/danfe-updates/updates/danfe-compactador-v1.0.1.zip",
   "changelog": [
-    "Sistema de auto-update implementado",
+    "Tela de carregamento implementada",
+    "Campo personalizável para nome da loja",
+    "Verificação automática de atualizações",
     "Melhorias na interface do usuário",
-    "Correções de bugs gerais",
     "Otimização de performance"
   ],
   "features": [
@@ -14,10 +15,12 @@
     "Detecção automática de SKUs",
     "Reordenação por grupos de fração",
     "Interface moderna com CustomTkinter",
-    "Sistema de auto-update",
+    "Sistema de auto-update automático",
+    "Tela de carregamento profissional",
+    "Texto personalizável por loja",
     "Abertura automática para impressão"
   ],
   "min_python_version": "3.8",
-  "file_size": "15.3 KB",
-  "checksum": "sha256:842f668f6f922fdd90f010219a9ad0a89ae52493d7691114b4afc1bda2f5d208"
+  "file_size": "14.2 KB",
+  "checksum": "sha256:436719e2dcd984afd9ac7bac0bd406913af0987b6ed5f49369b08c0dc55eb23d"
 }
