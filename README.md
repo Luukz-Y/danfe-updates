@@ -18,6 +18,7 @@ Cada atualização é um arquivo ZIP contendo:
 - `index.py` - Aplicativo principal
 - `version.py` - Informações de versão
 - `updater.py` - Sistema de atualização
+- `loading_screen.py` - Tela de carregamento
 - `gerar_licencas.py` - Gerador de licenças
 - `requirements.txt` - Dependências
 
