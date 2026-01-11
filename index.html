@@ -3,86 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DANFE Compactador - Sistema de Atualizações</title>
+    <title>DANFE Compactador - Atualizações</title>
     <style>
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            margin: 0; 
-            padding: 20px; 
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .container { 
-            max-width: 800px; 
-            margin: 0 auto; 
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            overflow: hidden;
-        }
-        .header { 
-            background: linear-gradient(135deg, #1f538d 0%, #14375e 100%);
-            color: white;
-            text-align: center; 
-            padding: 40px 20px;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-            font-weight: 300;
-        }
-        .header p {
-            margin: 10px 0 0 0;
-            opacity: 0.9;
-            font-size: 1.1em;
-        }
-        .content {
-            padding: 40px;
-        }
-        .version { 
-            background: #f8f9fa; 
-            padding: 25px; 
-            border-radius: 10px; 
-            margin: 20px 0; 
-            border-left: 4px solid #1f538d;
-        }
-        .version h2 {
-            margin: 0 0 15px 0;
-            color: #1f538d;
-        }
-        .download { 
-            text-align: center; 
-            margin: 30px 0; 
-        }
-        .btn { 
-            background: linear-gradient(135deg, #1f538d 0%, #14375e 100%);
-            color: white; 
-            padding: 15px 30px; 
-            text-decoration: none; 
-            border-radius: 25px;
-            display: inline-block;
-            font-weight: bold;
-            transition: transform 0.2s;
-        }
-        .btn:hover {
-            transform: translateY(-2px);
-        }
-        .info {
-            background: #e3f2fd;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        .info h3 {
-            margin: 0 0 10px 0;
-            color: #1976d2;
-        }
-        .footer {
-            background: #f5f5f5;
-            padding: 20px;
-            text-align: center;
-            color: #666;
-        }
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .version { background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .download { text-align: center; margin: 30px 0; }
+        .btn { background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
     </style>
 </head>
 <body>
@@ -92,30 +20,13 @@
             <p>Sistema de Atualizações Automáticas</p>
         </div>
         
-        <div class="content">
-            <div class="version">
-                <h2>📋 Versão Mais Recente</h2>
-                <p>O sistema de atualizações está ativo e funcionando. O aplicativo verifica automaticamente este repositório para novas versões.</p>
-                <p><strong>Arquivo de configuração:</strong> <code>version.json</code></p>
-            </div>
-            
-            <div class="info">
-                <h3>ℹ️ Como funciona</h3>
-                <p>O DANFE Compactador verifica automaticamente este repositório quando:</p>
-                <ul>
-                    <li>O aplicativo é iniciado</li>
-                    <li>Uma verificação automática é executada em background</li>
-                    <li>O sistema detecta uma nova versão disponível</li>
-                </ul>
-            </div>
-            
-            <div class="download">
-                <a href="version.json" class="btn">📄 Ver Informações da Versão</a>
-            </div>
+        <div class="version">
+            <h2>📋 Versão Mais Recente</h2>
+            <p>Verifique o arquivo <code>version.json</code> para informações detalhadas.</p>
         </div>
         
-        <div class="footer">
-            <p>Desenvolvido por Lucas Alexandre • Sistema de Auto-Update v2.0</p>
+        <div class="download">
+            <a href="version.json" class="btn">📄 Ver Informações da Versão</a>
         </div>
     </div>
 </body>
