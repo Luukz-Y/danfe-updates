@@ -1,7 +1,7 @@
 {
   "version": "1.0.3",
   "build": "2026.02.12",
-  "release_date": "2026-02-12T23:14:01.121540",
+  "release_date": "2026-02-12T23:27:07.689350",
   "download_url": "https://github.com/Luukz-Y/danfe-updates/releases/download/v1.0.3/danfe-compactador-v1.0.3.zip",
   "changelog": [
     "Sistema de auto-update implementado",
@@ -19,5 +19,5 @@
   ],
   "min_python_version": "3.8",
   "file_size": "87.9 MB",
-  "checksum": "sha256:17983aff9d7219a4039174ed55998935768aec6b27a1e1dab15a0dcb9a03d5b5"
+  "checksum": "sha256:2e1f5101baee44134a1f0e0aead17ba3d304b93b93ec3a865632bf61f8e9ef6b"
 }
