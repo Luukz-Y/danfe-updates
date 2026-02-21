@@ -1,7 +1,7 @@
 {
   "version": "1.0.3",
   "build": "2026.02.20",
-  "release_date": "2026-02-20T21:01:44.641577",
+  "release_date": "2026-02-20T21:20:27.328758",
   "download_url": "https://github.com/Luukz-Y/danfe-updates/releases/download/v1.0.3/danfe-compactador-v1.0.3.zip",
   "changelog": [
     "Sistema de auto-update implementado",
