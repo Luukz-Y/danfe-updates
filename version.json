@@ -4,10 +4,9 @@
   "release_date": "2026-04-27T19:31:39.497673",
   "download_url": "https://github.com/Luukz-Y/danfe-updates/releases/download/v1.0.4/danfe-compactador-v1.0.4.zip",
   "changelog": [
-    "Coloquei mais 1 pedido por folha \npara otimizar o uso de papel",
+    "Coloquei mais 1 pedido por folha para otimizar\n o uso de papel",
     "Qualquer erro ou Bug me informem",
-    "",
-    ""
+    "Por via das dúvidas, atualizem na parte da tarde\n e testem na parte da tarde."
   ],
   "features": [
     "Compactação inteligente de PDFs",
@@ -15,7 +14,7 @@
     "Reordenação por grupos de fração",
     "Interface moderna com CustomTkinter",
     "Sistema de auto-update",
-    "Abertura automática para impressão"
+    "Abertura automática para impressão" 
   ],
   "min_python_version": "3.8",
   "file_size": "88.1 MB",
